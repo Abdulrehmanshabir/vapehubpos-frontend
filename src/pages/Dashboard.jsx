@@ -7,7 +7,7 @@ import http from "../services/http";
 import { jwtDecode } from "jwt-decode";
 import { useSelector } from 'react-redux';
 
-const API = import.meta?.env?.VITE_API_URL;
+const API = import.meta.env.VITE_API_URL;
 
 export default function Dashboard() {
   const navigate = useNavigate();
